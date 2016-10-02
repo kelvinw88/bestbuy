@@ -1,0 +1,39 @@
+// Master utilites
+@import 'variables';
+@import 'fonts';
+@import 'layoutConfig';
+
+
+.set-flex {
+  display: flex;
+}
+.set-inline-flex {
+  display: inline-flex;
+}
+.flex-column {
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.flex-grow-equal {
+  flex: 1 0 auto;
+}
+.flex-center {
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+.flex-end{
+  align-self: flex-end;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.flex-column-xs {
+  -webkit-flex-direction: column ;
+  flex-direction: column ;
+}
+
+.scroll-none-im{
+  overflow: hidden !important;
+}
